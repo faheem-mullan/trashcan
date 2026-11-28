@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500..700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500..700&family=Fredoka:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
@@ -24,6 +24,7 @@
             <path d="M27 24c17-3 33-10 48-17" opacity=".45" />
           </svg>
         </h1>
+        <time id="board-date" class="board-date"></time>
       </header>
 
       <div id="input-box">
@@ -31,27 +32,27 @@
         <fieldset id="color-palette">
           <legend>Color</legend>
           <label class="color-option">
-            <input type="radio" name="note-color" value="yellow" aria-label="Warm Sand" />
+            <input type="radio" name="note-color" value="yellow" aria-label="Ochre" />
             <span class="color-swatch" data-color="yellow"></span>
           </label>
           <label class="color-option">
-            <input type="radio" name="note-color" value="lavender" aria-label="Soft Periwinkle" checked />
+            <input type="radio" name="note-color" value="lavender" aria-label="Signal Periwinkle" checked />
             <span class="color-swatch" data-color="lavender"></span>
           </label>
           <label class="color-option">
-            <input type="radio" name="note-color" value="blue" aria-label="Warm Peach" />
+            <input type="radio" name="note-color" value="blue" aria-label="Cobalt" />
             <span class="color-swatch" data-color="blue"></span>
           </label>
           <label class="color-option">
-            <input type="radio" name="note-color" value="mint" aria-label="Muted Sage" />
+            <input type="radio" name="note-color" value="mint" aria-label="Chartreuse" />
             <span class="color-swatch" data-color="mint"></span>
           </label>
           <label class="color-option">
-            <input type="radio" name="note-color" value="peach" aria-label="Soft Terracotta" />
+            <input type="radio" name="note-color" value="peach" aria-label="Vermilion" />
             <span class="color-swatch" data-color="peach"></span>
           </label>
           <label class="color-option">
-            <input type="radio" name="note-color" value="rose" aria-label="Warm Alabaster" />
+            <input type="radio" name="note-color" value="rose" aria-label="Newsprint" />
             <span class="color-swatch" data-color="rose"></span>
           </label>
         </fieldset>
@@ -62,6 +63,6 @@
       <section id="board"></section>
     </main>
 
-    <script src="app.js"></script>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>
